@@ -30,7 +30,7 @@ def sophie():
 def sophie_annee(n):
     s = 1000
     for k in range(2020, n):
-        round(s * 1.02 + 100, 2)
+        s = round(s * 1.02 + 100, 2)
     print(s, "€")
 
 
